@@ -27,8 +27,13 @@ Large: 1.8
 html {
   font-size: 62.5%;
 }
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 4.8rem;
+}
 
-/* ########## header ############ */
+/* ########## HEADER SECTION ############ */
 header {
   background-color: #0a0a0b;
 }
@@ -66,4 +71,21 @@ header {
   font-size: 2rem;
   padding: 1.4rem 2rem;
   cursor: pointer;
+}
+
+/* ########## HERO SECTION ############ */
+.section-hero {
+  background-color: #0a0a0b;
+  padding: 4.8rem 0;
+}
+.hero {
+  max-width: 64rem;
+}
+.hero-title {
+  font-size: 4.8rem;
+  color: #fff;
+}
+.hero-paragraph {
+  color: #999;
+  font-size: 2rem;
 }
