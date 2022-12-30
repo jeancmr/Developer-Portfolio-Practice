@@ -27,6 +27,14 @@ Large: 1.8
 html {
   font-size: 62.5%;
 }
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
 .container {
   max-width: 120rem;
   margin: 0 auto;
@@ -79,13 +87,18 @@ header {
   padding: 4.8rem 0;
 }
 .hero {
-  max-width: 64rem;
+  max-width: 60rem;
 }
 .hero-title {
   font-size: 4.8rem;
   color: #fff;
+  font-family: "Prata", serif;
+  font-weight: 400;
+  line-height: 1.2;
 }
 .hero-paragraph {
+  margin-top: 1rem;
   color: #999;
-  font-size: 2rem;
+  font-size: 1.6rem;
+  line-height: 1.5;
 }
