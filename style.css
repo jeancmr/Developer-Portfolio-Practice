@@ -84,7 +84,7 @@ header {
 /* ########## HERO SECTION ############ */
 .section-hero {
   background-color: #0a0a0b;
-  padding: 4.8rem 0;
+  padding: 6.4rem 0;
 }
 .hero {
   max-width: 60rem;
@@ -101,4 +101,15 @@ header {
   color: #999;
   font-size: 1.6rem;
   line-height: 1.5;
+}
+
+/* ########## FEATURED SECTION ############ */
+.section-featured {
+  background-color: #0a0a0b;
+  padding-bottom: 6.4rem;
+}
+.logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
