@@ -175,3 +175,24 @@ a span {
   font-size: 1.8rem;
   line-height: 1.5;
 }
+
+/* ########## CTA SECTION ############ */
+.section-cta {
+  background-color: #0a0a0b;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+.cta {
+  max-width: 54rem;
+}
+.cta-title {
+  font-size: 3.4rem;
+  color: #fff;
+  font-family: "Prata", serif;
+  font-weight: 400;
+}
+.cta-paragraph {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  padding: 1.8rem 0 1.8rem 0;
+}
