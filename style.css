@@ -44,7 +44,12 @@ body {
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 6.4rem;
+  gap: 8rem;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* ########## HEADER SECTION ############ */
@@ -53,24 +58,22 @@ header {
 }
 .header {
   max-width: 120rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   margin: 0 auto;
-  padding: 0 4.8rem;
+  padding: 3.2rem 4.8rem 0 4.8rem;
   height: 7rem;
 }
 .header-nav-bar {
   display: flex;
   list-style: none;
-  gap: 2.4rem;
+  gap: 3.2rem;
 }
 .text-logo:link,
 .text-logo:visited {
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.6rem;
   color: #fff;
   font-family: "Prata", serif;
+  display: inline-block;
 }
 .main-nav-link:link,
 .main-nav-link:visited {
@@ -84,10 +87,9 @@ header {
   border: none;
   color: black;
   font-size: 1.8rem;
-  padding: 1.4rem 2rem;
+  padding: 1.4rem 2.4rem;
   cursor: pointer;
   font-family: "Prata", serif;
-  font-weight: 500;
 }
 
 /* ########## HERO SECTION ############ */
@@ -116,11 +118,6 @@ header {
 .section-featured {
   background-color: #0a0a0b;
   padding-bottom: 8rem;
-}
-.logos {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 /* ########## PAGES SECTION ############ */
@@ -195,4 +192,15 @@ a span {
   font-size: 1.8rem;
   line-height: 1.5;
   padding: 1.8rem 0 1.8rem 0;
+}
+
+/* ########## FOOTER SECTION ############ */
+footer {
+  background-color: #2e3038;
+  padding: 2.4rem 0 2.4rem 0;
+}
+.social-media {
+  display: flex;
+  gap: 1.8rem;
+  list-style: none;
 }
