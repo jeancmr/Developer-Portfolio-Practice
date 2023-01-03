@@ -57,3 +57,20 @@
     font-size: 3rem;
   }
 }
+@media (max-width: 49em) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .logos {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    row-gap: 3rem;
+  }
+  .logos img:nth-child(3) {
+    padding-left: 2rem;
+  }
+  .logos img:last-child {
+    justify-self: center;
+  }
+}
