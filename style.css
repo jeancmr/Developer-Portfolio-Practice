@@ -109,7 +109,8 @@ header {
   transition: all 0.3s;
 }
 
-.btn:hover {
+.btn:hover,
+.btn:active {
   background-color: #c9ba40;
 }
 
