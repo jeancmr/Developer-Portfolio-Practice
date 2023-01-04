@@ -73,4 +73,33 @@
   .logos img:last-child {
     justify-self: center;
   }
+  .page-img {
+    height: 300px;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 35em) {
+  .logos {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 3rem;
+  }
+  .logos img:nth-child(odd) {
+    justify-self: flex-end;
+  }
+  .logos img:nth-child(even) {
+    justify-self: flex-start;
+  }
+  .page-img {
+    height: 300px;
+    object-fit: cover;
+  }
+  .container {
+    padding: 0 3.2rem;
+  }
+  .header {
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+  }
 }
